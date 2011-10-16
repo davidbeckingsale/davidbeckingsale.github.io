@@ -1,0 +1,28 @@
+--- 
+layout: post
+title: Emacs require-final-newline and delete-trailing-whitespace (on save)
+tags: 
+- Emacs
+status: publish
+type: post
+published: true
+meta: 
+  _edit_last: "1"
+  _syntaxhighlighter_encoded: "1"
+  _pingme: "1"
+  _encloseme: "1"
+  _wp_old_slug: ""
+---
+Here are two useful features I have recently added to my emacs configuration:
+
+<strong>Final Newline</strong>
+
+[code light="true"] (setq-default require-final-newline t) [/code]
+
+This makes sure that all files are saved with a final newline character. This is useful for programming, since it is a requirement of some languages.
+
+<strong>Delete Trailing Whitespace (on save)</strong>
+
+[code light="true"] (add-hook 'before-save-hook 'delete-trailing-whitespace) [/code]
+
+Another useful feature for writing code in emacs, helps keep things tidy by deleting trailing whitespace every time you save a file.
