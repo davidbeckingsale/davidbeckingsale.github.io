@@ -22,6 +22,11 @@
   text-align: center;
 }
 
+#post {
+	font: 16px Constantia, 'Hoefler Text', "Adobe Calson Pro", Baskerville, Georgia, Times, serif;
+	text-align: justify;
+}
+
 .buttons {
   width: 100%;
   margin: auto;
