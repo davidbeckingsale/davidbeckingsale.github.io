@@ -27,6 +27,10 @@
 	text-align: justify;
 }
 
+.related {
+	margin-top: 20px;
+}
+
 .buttons {
   width: 100%;
   margin: auto;
