@@ -14,6 +14,14 @@
   /*  font-family: 'La Belle Aurore', cursive; */
 }
 
+.title-plain {
+	font: 20px Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif;
+  font-size: 250%;
+  margin: auto;
+  margin-top: 125px;
+  text-align: center;
+}
+
 .buttons {
   width: 100%;
   margin: auto;
