@@ -1,13 +1,12 @@
 ---
-layout: default
-title: David Beckingsale
+layout: post
+type: index
+title: Blog Posts
+
 ---
 
 <div id="home">
-    <div class="title-plain">
-        <h1>Blog Posts</h1>
-        </div>
-        <div class="span-20 prepend-2 append-2">
+<div class="span-20 prepend-2 append-2">
   <ul class="posts">
     {% for post in site.posts %}
       <li><a href="{{ post.url }}">{{ post.title }}</a>, <span>{{ post.date | date_to_string }}</span></li>
