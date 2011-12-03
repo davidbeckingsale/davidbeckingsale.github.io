@@ -17,17 +17,17 @@ I forked out for a premium [Simplenote][1] account because I was happy with the 
 However, for quick snippets, in what I imagine to be [Notational Velocity][2] style, the web-interface isn't the quickest thing to use. Since a premium account allows you to sync all your notes to/from Dropbox, I decided I would try and write some kind of shell function to help me out.
 
 Here it is:
-
+{% highlight bash %}
     note() {
         echo "$@[2,10000]" > ~/Dropbox/notes/$1
     }
+{% endhighlight %}
     
-
 I can now type
-
-    notes my_note.txt write blog post about this and that will create a note in the folder in my Dropbox that syncs with Simplenote. The 
-
-`[2,10000]` range for putting the args into quotes is a bit hacky, but I wasn't sure how else I could do it, and a quick bit of googling didn't really help. I also wanted to avoid having to type quotes on the command line when I was trying to capture a note.</p> 
+{% highlight bash %}
+    notes my_note.txt write blog post about this 
+{% endhighlight %}
+and that will create a note in the folder in my Dropbox that syncs with Simplenote. The `[2,10000]` range for putting the args into quotes is a bit hacky, but I wasn't sure how else I could do it, and a quick bit of googling didn't really help. I also wanted to avoid having to type quotes on the command line when I was trying to capture a note.</p> 
 Not bad for 5 minutes work, now I just have to remember to use it!
 
  [1]: http://simplenoteapp.com/
