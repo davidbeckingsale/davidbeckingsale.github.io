@@ -6,6 +6,7 @@ tags:
 - Programming 
 status: publish
 type: post
+excerpt: Submitting multiple jobs into a scheduling system like PBS can be a bit of a chore, so it's good to automate it with a shell script.
 published: true
 ---
 

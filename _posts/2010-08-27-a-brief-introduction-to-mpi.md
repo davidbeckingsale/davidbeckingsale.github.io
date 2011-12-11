@@ -4,6 +4,7 @@ title: A Brief Introduction to MPI
 tags: - Tech 
 status: publish 
 type: post 
+excerpt: My final year at university is approaching and I need to undertake a project. My project is going to involve high performance computing - name message passing, and more specifically the Message Passing Interface.
 published: true 
 ---
 

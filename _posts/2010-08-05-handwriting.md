@@ -4,6 +4,7 @@ title: Handwriting
 tags: [] 
 status: publish 
 type: post 
+excerpt: In this age of computing, there is one great skill falling into decline - handwriting.
 published: true 
 ---
 

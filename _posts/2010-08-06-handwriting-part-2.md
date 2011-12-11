@@ -4,6 +4,7 @@ title: Handwriting Part 2
 tags: [] 
 status: publish 
 type: post 
+excerpt: In my previous post, I talked about the importance of handwritten communication and the dire state of many peoples handwriting. Here, I want to try and present the method I have used to try and improve my writing.
 published: true 
 --- 
 

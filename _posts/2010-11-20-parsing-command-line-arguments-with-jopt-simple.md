@@ -5,6 +5,7 @@ tags:
 - Java
 status: publish
 type: post
+excerpt: JOpt simple is a great library for parsing command line arguments in Java programs.
 published: true
 --- 
 

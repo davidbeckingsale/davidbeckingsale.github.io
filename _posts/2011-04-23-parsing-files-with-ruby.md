@@ -3,6 +3,7 @@ layout: post
 title: Parsing Files with Ruby
 status: publish
 type: post
+excerpt: I'm coming to the end of my final year project, and have been running a lot of performance tests. This involves crunching a lot of data in order to generated some graphs. I knocked up a little Ruby script to make this process a bit easier.
 published: true
 ---
 

@@ -4,6 +4,7 @@ title: Posting From Emacs
 tags: - Emacs 
 status: publish 
 type: post 
+excerpt: This is a test post using weblogger.
 published: true 
 ---
 

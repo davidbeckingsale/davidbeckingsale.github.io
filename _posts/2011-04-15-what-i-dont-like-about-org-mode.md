@@ -9,6 +9,7 @@ tags:
 - text
 status: publish
 type: post
+excerpt: Taking the complete opposite stance to my last post, I describe some of the problems I have found with org-mode.
 published: true
 ---
 

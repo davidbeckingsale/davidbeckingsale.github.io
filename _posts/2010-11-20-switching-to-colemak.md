@@ -4,6 +4,7 @@ title: Switching to colemak
 tags: []
 status: publish 
 type: post
+excerpt: A narrative about my attempt to switch keyboard layouts, from qwerty to colemak.
 published: true
 ---
 

@@ -7,6 +7,7 @@ tags:
 - work
 status: publish
 type: post
+excerpt: Whilst the iPad has often been described as a consumption device, I have been assessing its suitability as a device for actually <i>working</i> on.
 published: true
 ---
 

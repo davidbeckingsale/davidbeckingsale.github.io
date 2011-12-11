@@ -4,6 +4,7 @@ title: What I Like About Reddit
 tags: - Tech 
 status: publish 
 type: post 
+excerpt: Reminiscing about the glory days of Digg, and how it compares to r/programming.
 published: true 
 ---
 

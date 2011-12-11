@@ -6,6 +6,7 @@ tags:
 - ruby
 status: publish
 type: post
+excerpt: Something I think a lot about is how hard it is to learn new programming languages. In order to try and learn some new languages, I purchased <i>Seven Programming Languages in Seven Weeks</i>.
 published: true
 ---
 

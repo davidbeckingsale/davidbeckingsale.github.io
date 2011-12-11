@@ -9,6 +9,7 @@ tags:
 - Tech
 status: publish
 type: post
+excerpt: I forked out for a premium Simplenote account because I was happy with the app and found the service it provides useful. However, for quick snippets the web-interface isn't the quickest thing to use, so I decided to try and write some kind of shell function to let me capture notes from the terminal.
 published: true
 ---
 

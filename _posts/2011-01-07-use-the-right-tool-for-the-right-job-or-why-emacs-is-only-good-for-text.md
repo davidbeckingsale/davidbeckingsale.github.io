@@ -5,6 +5,7 @@ tags:
 - Emacs 
 status: publish
 type: post
+excerpt: Emacs is a powerful tool, however, it's not perfect for everything.
 published: true
 ---
 

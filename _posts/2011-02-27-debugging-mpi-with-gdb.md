@@ -6,6 +6,7 @@ tags:
 - Programming
 status: publish
 type: post
+excerpt: Debugging parallel code can be notoriously difficult, however, using simple tools like gdb, it is possible to debug these complex programs.
 published: true
 ---
 

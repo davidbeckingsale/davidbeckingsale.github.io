@@ -6,6 +6,7 @@ tags:
 - python
 status: publish
 type: post
+excerpt: So, my aim for the summer was to blast through <i>Seven Programming Languages in Seven Weeks</i>. That didn't happen, so I tried to learn some Ruby (on Rails). That didn't happen. I have however managed to work through <i>Learn Python the Hard Way</i>, made a Python app, and learned some PyGtk.
 published: true
 ---
 

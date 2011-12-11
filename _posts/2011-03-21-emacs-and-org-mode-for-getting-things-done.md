@@ -5,6 +5,7 @@ tags:
 - Emacs
 status: publish
 type: post
+excerpt: I have ranted about people trying to use emacs for everything, but I have recently started using org-mode as a GTD solution. Here I describe my current system.
 published: true
 ---
 

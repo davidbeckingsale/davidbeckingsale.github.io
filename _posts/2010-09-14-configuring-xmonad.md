@@ -4,6 +4,7 @@ title: Configuring Xmonad
 tags: - Tech
 status: publish
 type: post
+excerpt: Xmonad is a tiling window manager for X written in Haskell. Customisation can seem daunting, but it is definitely worth spending the time to get your config just right.
 published: true
 ---
 

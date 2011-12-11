@@ -5,6 +5,7 @@ tags:
 - presenting 
 status: publish
 type: post
+excerpt: I'm not one for "top-tips", but my top presentation tip, is practising as much as possible!
 published: true
 ---
 

@@ -5,6 +5,7 @@ tags:
 - Emacs 
 status: publish 
 type: post
+excerpt: A couple of useful settings for Emacs, adding final newlines, and deleting trailing whitespace of save.
 published: true
 ---
 
