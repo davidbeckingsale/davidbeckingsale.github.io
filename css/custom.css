@@ -34,6 +34,24 @@
     line-height: 120%;
 }
 
+.post-item {
+    margin: 50px auto 0px;
+}
+
+.post-title {
+    float: left;
+}
+
+.post-date {
+    color: gray;
+    float: right;
+}
+
+.post-excerpt {
+    clear: both;
+    padding-top: 7px;
+}
+
 #related {
     margin-top: 20px;
 }
