@@ -6,7 +6,7 @@ tags:
 - Scheme
 status: publish
 type: post
-excerpt: Taking an old-school approach to learning programming, working with the classic <i>>How to Design Programs</i>.
+excerpt: Taking an old-school approach to learning programming, working with the classic <i>How to Design Programs</i>.
 published: true
 ---
 
