@@ -28,7 +28,8 @@ I can now type
 {% highlight bash %}
     notes my_note.txt write blog post about this 
 {% endhighlight %}
-and that will create a note in the folder in my Dropbox that syncs with Simplenote. The `[2,10000]` range for putting the args into quotes is a bit hacky, but I wasn't sure how else I could do it, and a quick bit of googling didn't really help. I also wanted to avoid having to type quotes on the command line when I was trying to capture a note.</p> 
+and that will create a note in the folder in my Dropbox that syncs with Simplenote. The `[2,10000]` range for putting the args into quotes is a bit hacky, but I wasn't sure how else I could do it, and a quick bit of googling didn't really help. I also wanted to avoid having to type quotes on the command line when I was trying to capture a note.
+
 Not bad for 5 minutes work, now I just have to remember to use it!
 
  [1]: http://simplenoteapp.com/
