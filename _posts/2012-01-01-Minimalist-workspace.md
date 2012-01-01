@@ -20,7 +20,7 @@ I think the whole point of a minimalist workspace, to me anyway, is to remove an
 
 Once you start work, your desk will quite likely turn into a tip. This is how it should be. When I have been at my desk for a few hours there will inevitably be paper, pens, crumbs, coffee mugs, and other assorted detritus all over it. At the end of the day though, I will make an effort to clean everything back up, so I know that the next morning, the thought of spending 20 minutes futzing around and tidying won't even cross my mind.
 
-Regardless of the skepticism with which you regard these _minimalist_ workspaces, bear in the mind the barriers you might accidentally create for yourself by effectively saying _"F*** it,"_ and leaving your workspace in mess.
+Regardless of the skepticism with which you regard these _minimalist_ workspaces, bear in the mind the barriers you might accidentally create for yourself by effectively saying _"F*** it,"_ and leaving your workspace in a mess.
 
 [mm]: http://merlinmann.com
 [db]: http://danbenjamin.com
