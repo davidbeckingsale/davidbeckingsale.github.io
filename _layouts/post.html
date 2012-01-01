@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="title-small">
-    <h1>{{ page.title }}</h1>
+<h1>David's Blog</h1>
 </div>
 
 <div id="post" class="span-20 prepend-2 append-2">
@@ -16,6 +16,7 @@ layout: default
     {% if page.title != "Blog Posts" %}
     <div class="span-14 prepend-3 append-3">
     {% endif %}
+    <h1>{{ page.title }}</h1>
     {{ content }}
     {% if page.type == "post" %}
     <div id="related">

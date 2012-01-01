@@ -40,6 +40,7 @@
 
 .post-title {
     float: left;
+    width: 75%;
 }
 
 .post-date {
@@ -58,7 +59,7 @@
 
 .blog-nav {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 .blog-nav ul {
@@ -78,7 +79,7 @@
     border-left: none;
 }
 
-.blog-nav a {
+#post .blog-nav a {
     color: gray;
 }
 
@@ -161,6 +162,15 @@ p {
     margin: 0 0 10px 0;
 }
 
+#post a {
+	color: #4B8A79;
+}
+
 #post h2 {
 	line-height: 110%;
 }
+
+#post h1 {
+	text-align: center;
+}
+
