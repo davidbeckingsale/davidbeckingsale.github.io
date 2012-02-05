@@ -14,7 +14,7 @@ from the App Store later the same day, I was disappointed to find that
 identifying my unread papers on the iPad was far less trivial, impossible
 in fact.
 
-After a couple of day's mulling things over, I hit upon a simple and easy to
+After a couple of days' mulling things over, I hit upon a simple and easy to
 implement solution. Simply create a new _Smart Collection_, and then use the
 following settings:
 
