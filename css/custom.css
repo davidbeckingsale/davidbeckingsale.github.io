@@ -174,3 +174,14 @@ p {
 	text-align: center;
 }
 
+#copy, #power {
+    font: 16px Constantia, 'Hoefler Text', "Adobe Calson Pro", Baskerville, Georgia, Times, serif;
+}
+
+#copy {
+    float: left;
+}
+
+#power {
+    float: right;
+}
