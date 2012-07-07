@@ -3,7 +3,7 @@ layout: post
 title: Launch Centre Pro & OmniFocus
 status: publish
 type: post
-excerpt: 
+excerpt: Using Launch Center Pro as an alternative to TextExpander with OmniFocus on iOS.
 ---
 
 Recently, Michael Schechter [posted][bm] about using [Launch Center Pro][lcp] as a mobile alternative to David Sparks' TextExpander [snippets][ms] for OmniFocus. I'd heard about Launch Center Pro before but never really gave it much thought. At first glance it just seemed like an app launcher, and as someone who probably uses less than 10 apps regularly, and without any concrete use cases, it didn't seem like something I _had_ to buy.
