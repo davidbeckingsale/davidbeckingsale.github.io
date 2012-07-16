@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Goudy Bookletter 1911';
+    src: url('webfonts/goudy_bookletter_1911-webfont.eot'); /* IE9 Compat Modes */
+    src: url('webfonts/goudy_bookletter_1911-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('webfonts/goudy_bookletter_1911-webfont.woff') format('woff'), /* Modern Browsers */
+    url('webfonts/goudy_bookletter_1911-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('webfonts/goudy_bookletter_1911-webfont.svg') format('svg'); /* Legacy iOS */
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #444444;
+    font-family: 'Goudy Bookletter 1911';
+    font-size: 22px;
+}
+
+#container {
+    width: 720px;
+    margin: 0 auto 0 auto;
+}
+
+header {
+    border-bottom: 3px solid #AAAAAA;
+}
+
+footer {
+    border-top: 3px solid #AAAAAA;
+}
+
+footer > #copy, header > #logo {
+    float: left;
+}
+
+footer > #power, header > #nav {
+    float: right;
+}
