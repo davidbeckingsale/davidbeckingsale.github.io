@@ -7,24 +7,67 @@
     url('webfonts/goudy_bookletter_1911-webfont.svg') format('svg'); /* Legacy iOS */
 }
 
+/*
+ * Utility classes
+ */
+.group:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+/*
+ * Link styling, global!
+ */
+a:link {
+    color:rgb(75, 138, 121);
+}
+
+a:visited {
+    color:rgb(75, 138, 121);
+}
+
+a:hover {
+    color:rgb(140, 30, 29);
+}
+
+a:active {
+    color:rgb(140, 30, 29);
+}
+
 body {
     background-color: #FFFFFF;
-    color: #444444;
-    font-family: 'Goudy Bookletter 1911';
-    font-size: 22px;
+    color: #111111;
+    /* font-family: 'Goudy Bookletter 1911'; */
+    font-family: Georgia, serif;
+    font-size: 16px;
 }
 
 #container {
     width: 720px;
-    margin: 0 auto 0 auto;
+    margin: 1em auto 1em auto;
 }
 
 header {
-    border-bottom: 3px solid #AAAAAA;
+    border-bottom: 0.25em solid #000000;
+    font-size: 1.4em;
+    font-family: Palatino Linotype, Baskerville, serif;
+    padding-bottom: 0.5em;
+}
+
+header > #nav {
+    font-size: 0.8em;
 }
 
 footer {
-    border-top: 3px solid #AAAAAA;
+    font-size: 0.9em;
+    border-top: 0.1em solid #000000;
+    font-family: Palatino Linotype, Baskerville, serif;
+    margin-top: 0.1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 footer > #copy, header > #logo {
@@ -33,4 +76,83 @@ footer > #copy, header > #logo {
 
 footer > #power, header > #nav {
     float: right;
+}
+
+#content {
+    border-top: 0.1em solid #000000;
+    border-bottom: 0.25em solid #000000;
+    margin-top: 0.1em;
+}
+
+/*
+ * Post styling
+ */
+
+.posts {
+    margin-top: 0.5em;
+}
+
+.post-item {
+    margin: 0 0 1em 0;
+    position: relative;
+    border-bottom: 0.1em dotted #000000;
+    padding-bottom: 1em;
+}
+
+.post-item > .post-date {
+    position: absolute;
+    top: 0px;
+    right: 0.4em;
+    color: #808080;
+    font-family: Cochin, serif;
+    font-style: italic;
+}
+
+.post-item > .post-title {
+    font-family: Palatino Linotype, Baskerville, serif;
+    font-size: 1.4em;
+}
+
+.post-item > .post-title > a:link {
+    color: #000000;
+}
+
+.post-item > .post-title > a:visited {
+    color: #000000;
+}
+
+.post-item > .post-title > a:hover {
+    color:rgb(140, 30, 29);
+}
+
+.post-item > .post-title > a:active {
+    color: #000000;
+}
+
+.post-item:last-child {
+    border:none;
+}
+
+.post {
+    text-align: justify;
+}
+
+.post > .post-title > h1 {
+    text-align: center;
+    font-family: Palatino Linotype, Baskerville, serif;
+}
+
+.post > .post-body {
+    margin: 0 2em 0 2em;
+}
+
+/*
+ * quotes
+ */
+blockquote {
+    border-top: 0.1em dotted #808080;
+    border-bottom: 0.1em dotted #808080;
+    margin: 0;
+    padding-left: 2em;
+    color: #404040;
 }

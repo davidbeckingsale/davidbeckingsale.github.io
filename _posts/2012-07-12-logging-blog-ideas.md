@@ -21,7 +21,7 @@ echo "- {query}" >> /Users/david/Dropbox/notes/blog_ideas.md
 {% endhighlight %}
 
 I use a hyphen at the start of the item because I maintain my file as a markdown list. The echo at the end gives me a [Growl][grwl] notification with whatever was added to my list of ideas.
-I can now hit ⌘-Space to bring up Alfred, then type "blog <new idea>", and get a new line at the end of my ideas file.
+I can now hit ⌘-Space to bring up Alfred, then type "blog 'new idea'", and get a new line at the end of my ideas file.
 
 [alfred]: http://www.alfredapp.com/
 [rwc]: http://www.runningwithcrayons.com/
