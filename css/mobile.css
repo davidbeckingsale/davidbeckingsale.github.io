@@ -1,0 +1,24 @@
+#container {
+    width: auto;
+    min-width: 320px;
+    margin: 0 1em 0 1em;
+}
+
+.post-item > .post-date {
+    position: static;
+    color: #808080;
+    font-family: Cochin, serif;
+    font-style: italic;
+    text-align: right;
+    width: 100%;
+}
+
+footer > #copy, header > #logo {
+    float: none;
+    text-align: center;
+}
+
+footer > #power, header > #nav {
+    float: none;
+    text-align: center;
+}
