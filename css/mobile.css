@@ -9,8 +9,12 @@
     color: #808080;
     font-family: Cochin, serif;
     font-style: italic;
-    text-align: right;
+    text-align: center;
     width: 100%;
+}
+
+.post-item > .post-title {
+    text-align: center;
 }
 
 footer > #copy, header > #logo {
