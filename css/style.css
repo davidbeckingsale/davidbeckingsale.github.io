@@ -147,3 +147,70 @@ blockquote {
     padding-left: 2em;
     color: #404040;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #container {
+        width: auto;
+        min-width: 320px;
+        margin: 0 1em 0 1em;
+    }
+
+    .post-item > .post-date {
+        position: static;
+        color: #808080;
+        font-family: Cochin, serif;
+        font-style: italic;
+        text-align: center;
+        width: 100%;
+    }
+
+    .post-item > .post-title {
+        text-align: center;
+    }
+
+    footer > #copy, header > #logo {
+        float: none;
+        text-align: center;
+    }
+
+    footer > #power, header > #nav {
+        float: none;
+        text-align: center;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+    body {
+        font-size: 32px;
+    }
+
+    #container {
+        width: auto;
+        min-width: 640px;
+        margin: 0 1em 0 1em;
+    }
+
+    .post-item > .post-date {
+        position: static;
+        color: #808080;
+        font-family: Cochin, serif;
+        font-style: italic;
+        text-align: center;
+        width: 100%;
+    }
+
+    .post-item > .post-title {
+        text-align: center;
+    }
+
+    footer > #copy, header > #logo {
+        float: none;
+        text-align: center;
+    }
+
+    footer > #power, header > #nav {
+        float: none;
+        text-align: center;
+    }
+}
