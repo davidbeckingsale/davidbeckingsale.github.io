@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hack/Make "<em>For the Sake of Becoming</em>"
+title: <a href="http://hackmake.org/2012/10/31/for-the-sake-of-becoming">Hack/Make: <em>For the Sake of Becoming</em>"</a>
 status: publish
 type: post
 excerpt: <blockquote>It’s about becoming. Becoming is cyclical and perpetual. When you think you’ve “arrived”, you’re only just at the beginning of a new place.</blockquote> Nick Wynja from <em>Hack/Make</em>
