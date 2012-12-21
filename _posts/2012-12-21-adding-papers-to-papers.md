@@ -13,15 +13,15 @@ I need to do is import these newly-downloaded files.
 The [`maid`][maid] gem makes this easy to do automatically. I've added the
 following rule to my `rules.rb` file:
 
-    rule 'Add PDFs to Papers2' do¬
-      dir('~/Downloads/*.pdf').each do |path|¬
-        is_paper = `mdfind -onlyin ~/Downloads/ computing`¬
+    rule 'Add PDFs to Papers2' do
+      dir('~/Downloads/*.pdf').each do |path|
+        is_paper = `mdfind -onlyin ~/Downloads/ computing`
     
-          if is_paper.include?(path)¬
-            `open -a Papers2 "#{path}"`¬
-          end¬
-      end¬
-    end¬ 
+          if is_paper.include?(path)
+            `open -a Papers2 "#{path}"`
+          end
+      end
+    end
 
 It's not perfect, but it _is_ perfectly functional. Every time I run `maid
 clean`, any PDFs that contain the word "computing" will be automatically
