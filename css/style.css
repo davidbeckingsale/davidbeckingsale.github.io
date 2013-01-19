@@ -1,220 +1,171 @@
-/*
- * Utility classes
- */
-.group:after {
-    visibility: hidden;
-    display: block;
-    content: "";
-    clear: both;
-    height: 0;
-}
-
-/*
- * Link styling, global!
- */
-a:link {
-    color:rgb(75, 138, 121);
-}
-
-a:visited {
-    color:rgb(75, 138, 121);
-}
-
-a:hover {
-    color:rgb(140, 30, 29);
-}
-
-a:active {
-    color:rgb(140, 30, 29);
-}
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,800);
+@import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic);
 
 body {
-    background-color: #FFFFFF;
-    color: #111111;
-    /* font-family: 'Goudy Bookletter 1911'; */
-    font-family: Georgia, serif;
-    font-size: 16px;
+    color: rgba(34,34,34,1);
+    background-color: rgba(255,255,255,1);
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 18px;
+    line-height: 1.5em;
 }
 
-#container {
-    width: 720px;
-    margin: 1em auto 1em auto;
+p {
+    font-size: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+h1 {
+    font-size: 1.5em;
+    line-height: 1em;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 1.333em;
+    line-height: 1.125em;
+    margin-top: 1.125em;
+    margin-bottom: 1.125em;
+}
+
+h3 {
+    font-size: 1.22222em;
+    line-height: 1.272em;
+    margin-top: 1.272em;
+    margin-bottom: 1.272em;
+}
+
+h4 {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+h5 {
+    font-size: 0.888em;
+    line-height: 1.6875em;
+    margin-top: 1.6875em;
+    margin-bottom: 1.6875em;
+}
+
+h6 {
+    font-size: 0.7777em;
+    line-height: 1.92857em;
+    margin-top: 1.92857em;
+    margin-bottom: 0;
+}
+
+hr {
+    width: 80%;
+    border-top: 0.2em solid rgba(68,68,68,1);
+    style: none;
+    text-decoration: none;
 }
 
 header {
-    border-bottom: 0.25em solid #000000;
-    font-size: 1.4em;
-    font-family: Palatino Linotype, Baskerville, serif;
-    padding-bottom: 0.5em;
+    background-color: rgba(255,102,0,1);
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.75em;
+    margin-top: 0;
+    padding-top: 1.5em;
+    padding-bottom: 0.75em;
 }
 
-header > #nav {
-    font-size: 0.8em;
+.column {
+	width: 620px;
+	margin: auto;
+}
+
+nav {
+    font-size: 0.5em;
+    font-family: 'Open Sans', sans-serif;
+    width: 620px;
+    line-height: 1.5em;
+    margin: 1.5em auto 0 auto;
+}
+
+article {
+    width: 620px;
+    margin: auto;
 }
 
 footer {
-    font-size: 0.9em;
-    border-top: 0.1em solid #000000;
-    font-family: Palatino Linotype, Baskerville, serif;
-    margin-top: 0.1em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-}
-
-footer > #copy, header > #logo {
-    float: left;
-}
-
-footer > #power, header > #nav {
-    float: right;
-}
-
-#content {
-    border-top: 0.1em solid #000000;
-    border-bottom: 0.25em solid #000000;
-    margin-top: 0.1em;
-}
-
-/*
- * Post styling
- */
-
-.posts {
-    margin-top: 0.5em;
-}
-
-.post-item {
-    margin: 0 0 1em 0;
-    position: relative;
-    border-bottom: 0.1em dotted #000000;
+    background-color: rgba(34,34,34,1);
+    color: rgba(255,255,255,1);
+    font-size: 0.75em;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    padding-top: 3em;
     padding-bottom: 1em;
-}
-
-.post-item > .post-date {
-    position: absolute;
-    top: 0px;
-    right: 0.4em;
-    color: #808080;
-    font-family: Cochin, serif;
-    font-style: italic;
-}
-
-.post-item > .post-title {
-    font-family: Palatino Linotype, Baskerville, serif;
-    font-size: 1.4em;
-}
-
-.post-item > .post-title > a:link {
-    color: #000000;
-}
-
-.post-item > .post-title > a:visited {
-    color: #000000;
-}
-
-.post-item > .post-title > a:hover {
-    color:rgb(140, 30, 29);
-}
-
-.post-item > .post-title > a:active {
-    color: #000000;
-}
-
-.post-item:last-child {
-    border:none;
+    height: 100px;
+    width: 100%;
 }
 
 .post {
-    text-align: justify;
+    margin-top: 3em;
+    margin-bottom: 6em;
+}
+
+.post > h1 {
+    text-align: center;
+    margin-bottom: 0;
 }
 
 .post > .post-title > h1 {
     text-align: center;
-    font-family: Palatino Linotype, Baskerville, serif;
+    margin-bottom: 0;
 }
 
-.post > .post-body {
-    margin: 0 2em 0 2em;
+.date {
+    color: rgba(34,34,34,0.6);
+    text-align: center;
+    margin-top: 0.75em;
+    margin-bottom: 2.25em;
 }
 
-/*
- * quotes
- */
+a {
+    color: rgba(64,64,64,1);
+}
+
+
+p > a {
+    color: rgba(255,102,0,1);
+}
+
+nav > a {
+    color: rgba(255,255,255,1);
+}
+
+
+footer > a {
+    color: rgba(255,102,0,1);
+}
+
+a:hover {
+    color: rgba(255,102,0,1);
+}
+
+p > a:hover {
+    color: rgba(68, 68, 68,1);
+}
+
+nav > a:hover {
+    color: rgba(34,34,34,1);
+}
+
 blockquote {
-    border-top: 0.1em dotted #808080;
-    border-bottom: 0.1em dotted #808080;
-    margin: 0;
-    padding-left: 2em;
-    color: #404040;
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    body {
-        font-size: 32px;
-    }
-
-    #container {
-        width: auto;
-        min-width: 320px;
-        margin: 0 1em 0 1em;
-    }
-
-    .post-item > .post-date {
-        position: static;
-        color: #808080;
-        font-family: Cochin, serif;
-        font-style: italic;
-        text-align: center;
-        width: 100%;
-    }
-
-    .post-item > .post-title {
-        text-align: center;
-    }
-
-    footer > #copy, header > #logo {
-        float: none;
-        text-align: center;
-    }
-
-    footer > #power, header > #nav {
-        float: none;
-        text-align: center;
-    }
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-    body {
-        font-size: 84px;
-    }
-
-    #container {
-        width: auto;
-        min-width: 640px;
-        margin: 0 1em 0 1em;
-    }
-
-    .post-item > .post-date {
-        position: static;
-        color: #808080;
-        font-family: Cochin, serif;
-        font-style: italic;
-        text-align: center;
-        width: 100%;
-    }
-
-    .post-item > .post-title {
-        text-align: center;
-    }
-
-    footer > #copy, header > #logo {
-        float: none;
-        text-align: center;
-    }
-
-    footer > #power, header > #nav {
-        float: none;
-        text-align: center;
-    }
+    color: rgba(34,34,34,0.8);
+    padding-left: 0.5em;
+    border-left: 0.2em solid rgba(34,34,34,0.6);
 }

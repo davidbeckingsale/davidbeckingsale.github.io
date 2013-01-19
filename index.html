@@ -1,0 +1,18 @@
+---
+layout: default
+title: Blog
+---
+
+<div id="home">
+    {% for post in site.posts %}
+    <div class="post">
+        {% if post.link %}
+        <h1><a href="{{ post.link }}">{{ post.title }} ⇒</a><span class="date"></span></h1>
+        {% else %}
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        {% endif %}
+        <div class="date">{{ post.date | date: "%B %e, %Y" }} &bullet; <a href="{{ post.url }}">∞</a></div> 
+        <div class="excerpt">{{ post.content }}</div>
+    </div>
+    {% endfor %}
+</div>

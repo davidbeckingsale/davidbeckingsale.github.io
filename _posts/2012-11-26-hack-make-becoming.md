@@ -1,9 +1,9 @@
 ---
 layout: post
-title: <a href="http://hackmake.org/2012/10/31/for-the-sake-of-becoming">For the Sake of Becoming</a>
+title: For the Sake of Becoming
+link: http://hackmake.org/2012/10/31/for-the-sake-of-becoming
 status: publish
 type: post
-excerpt: Nick Wynja, of <a href="http://hackmake.org/">Hack/Make</a>
 ---
 
 Nick Wynja, [For the Sake of Becoming][hm]:
