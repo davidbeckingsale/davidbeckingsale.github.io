@@ -1,6 +1,6 @@
 ---
 layout: post
-title: On The Verge Episode 002: John Gruber 
+title: "On The Verge Episode 002: John Gruber"
 link: http://www.theverge.com/2012/3/26/2633122/on-the-verge-episode-2-john-gruber
 status: publish
 type: post
