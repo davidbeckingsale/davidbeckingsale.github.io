@@ -15,10 +15,6 @@ type: post
 excerpt: 
 ---
 EOS
-
-        File.foreach(File.expand_path("~/Dropbox/notes/#{args.name}.txt")) do |li|
-            file.puts li
-        end
     end
 
     system("mvim #{path}")
