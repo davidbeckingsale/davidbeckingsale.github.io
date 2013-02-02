@@ -108,8 +108,12 @@ footer {
     text-align: center;
     padding-top: 3em;
     padding-bottom: 1em;
-    height: 100px;
     width: 100%;
+}
+
+#copy {
+    clear:both;
+    margin-top: 1.5em;
 }
 
 .post {
@@ -152,6 +156,10 @@ footer > a {
     color: rgba(255,102,0,1);
 }
 
+#archives > a {
+    color: rgba(255,255,255,1);
+}
+
 a:hover {
     color: rgba(255,102,0,1);
 }
@@ -164,8 +172,25 @@ nav > a:hover {
     color: rgba(34,34,34,1);
 }
 
+#archives > a:hover {
+    color: rgba(255,102,0,1);
+}
+
+
 blockquote {
     color: rgba(34,34,34,0.8);
     padding-left: 0.5em;
     border-left: 0.2em solid rgba(34,34,34,0.6);
+}
+
+.month > h1 {
+    font-size: 2em;
+    line-height: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0.75em;
+    text-align: center;
+}
+
+.orange {
+    color: rgba(255,102,0,1);
 }

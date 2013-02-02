@@ -1,10 +1,15 @@
 ---
 layout: default
-title: Blog
 ---
 
+<div class="month">
+    <h1>{{page.month | to_month}} {{page.year}}</h1>
+</div>
+
 <div id="home">
-    {% for post in site.posts limit:15 %}
+    {% for d in (1..31) reversed %}
+    {% if site.collated_posts[page.year][page.month][d] %}
+    {% for post in site.collated_posts[page.year][page.month][d] reversed %}
     <div class="post">
         {% if post.link %}
         <h1><a href="{{ post.link }}">{{ post.title }} ⇒</a><span class="date"></span></h1>
@@ -15,4 +20,7 @@ title: Blog
         <div class="excerpt">{{ post.content }}</div>
     </div>
     {% endfor %}
+    {% endif %}
+    {% endfor %}
 </div>
+

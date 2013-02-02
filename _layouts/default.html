@@ -30,6 +30,12 @@
     </article>
     <footer>
     <div class="column">
+        <div id="archives">
+            {% for monthly_archive in site.monthly_archives %}
+            <a href="{{ monthly_archive.url }}">{{ monthly_archive.name }}</a>  <span class="orange"> {% if forloop.last %} {% else %} {% cycle '&bullet;', '&bullet;', '&bullet;', '' %}</span> {% endif %}
+                {% cycle '', '', '', '<br />' %}
+            {% endfor %}
+        </div>
     <div id="copy">&copy; David Beckingsale 2012 </div>
     <div id="power">Powered by <a href="https://github.com/mojombo/jekyll/">Jekyll</a> & <a href="http://pages.github.com/">Github Pages</a></div>
     </div>
