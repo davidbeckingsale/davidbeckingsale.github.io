@@ -1,0 +1,226 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>David Beckingsale - </title>
+    <meta name="description" content="">
+    <meta name="author" content="David Beckingsale" />
+    <link href="atom.xml" rel="alternate" title="David Beckingsale" type="application/atom+xml" />
+
+    <link rel="stylesheet" href="/css/normalize.css/normalize.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+    <header>
+    <div class="column">
+    <div id="logo">
+        David Beckingsale 
+    </div>
+    <nav>
+    <a href="/">Home</a>
+    &bullet;
+    <a href="/atom.xml">Atom</a>
+    </nav>
+    </div>
+    </header>
+    <article>
+    <div class="month">
+    <h1>July 2012</h1>
+</div>
+
+<div id="home">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="post">
+        
+        <h1><a href="/2012/07/14/a-different-kind-of-tech-presentation.html">A Different Kind of Tech Presentation</a></h1>
+        
+        <div class="date">July 14, 2012 &bullet; <a href="/2012/07/14/a-different-kind-of-tech-presentation.html">∞</a></div> 
+        <div class="excerpt"><p>Rob Conery&#8217;s <a href='http://wekeroad.com/2012/07/04/try-it-quiet'>presentation</a> from the Norwegian Developers Conference is well worth a watch. Rather than flash up some slides and example code that doesn&#8217;t really tell you anything about the language, he decided to code. Just code. As he says on his blog:</p>
+
+<blockquote>
+<p>I sat down and coded to some fun music for 50 solid minutes.</p>
+</blockquote>
+
+<p>The video is well worth a watch as it really gets across the atmosphere of the room, and the music fits the presentation almost perfectly. Rob makes surprisingly few typos (I forget how to touch type if someone walks past me!), and the presentation flows smoothly through many aspects of Node. I feel like I learned more from casually watching this than I would have from spending a few hours typing out &#8220;Hello, world!&#8221; tutorials, and I really thing that is what Rob was trying to put across.</p>
+
+<p>A fantastic model for tech presentations, if you can pull it off!</p></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    <div class="post">
+        
+        <h1><a href="/2012/07/12/logging-blog-ideas.html">Logging Blog Ideas</a></h1>
+        
+        <div class="date">July 12, 2012 &bullet; <a href="/2012/07/12/logging-blog-ideas.html">∞</a></div> 
+        <div class="excerpt"><p>Like most people these days, I&#8217;d like to blog more. A key part of that is finding things to write about. Whenever I had an idea, I would open up nvALT, find my list of ideas, then add a new idea to the bottom. None of those steps are too difficult, but they do cause a fairly lengthy disruption if you are in the middle of something else. To streamline the process, I used <a href='http://www.alfredapp.com/'>Alfred</a>, an application launcher from <a href='http://www.runningwithcrayons.com/'>Running With Crayons</a>.</p>
+
+<p>One great feature of Alfred is the ability to trigger a shell script, along with passing it an optional parameter. A simple shell script to log ideas would look something like this:</p>
+<div class='highlight'><pre><code class='bash'>	<span class='nb'>echo</span> <span class='s2'>&quot;idea&quot;</span> &gt;&gt; ~/Dropbox/notes/blog_ideas.txt
+</code></pre></div>
+<p>Combining that with Alfred means that I can replace whatever is inside the quotes with a parameter that Alfred will pass to the script. The value this parameter takes will be whatever you type after the keyword you use to trigger your script. The actual script you need to put in Alfred looks something like this:</p>
+<div class='highlight'><pre><code class='bash'><span class='nb'>echo</span> <span class='s2'>&quot;- {query}&quot;</span> &gt;&gt; /Users/david/Dropbox/notes/blog_ideas.md 
+    <span class='o'>&amp;&amp;</span> <span class='nb'>echo</span> <span class='s2'>&quot;Added {query} to blog ideas…&quot;</span>
+</code></pre></div>
+<p>I use a hyphen at the start of the item because I maintain my file as a markdown list. The echo at the end gives me a <a href='http://growl.info/'>Growl</a> notification with whatever was added to my list of ideas. I can now hit ⌘-Space to bring up Alfred, then type &#8220;blog &#8216;new idea&#8217;&#8220;, and get a new line at the end of my ideas file.</p></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="post">
+        
+        <h1><a href="/2012/07/08/journaling-with-dayone.html">Journaling with DayOne</a></h1>
+        
+        <div class="date">July  8, 2012 &bullet; <a href="/2012/07/08/journaling-with-dayone.html">∞</a></div> 
+        <div class="excerpt"><p>Yesterday, I took the plunge and invested a whole ~£4.50 buying <a href='http://dayoneapp.com/'>DayOne</a> for both OS X and iOS. The app is billed as</p>
+
+<blockquote>
+<p>The easiest to use journal / diary / text logging application for the Mac&#8230;</p>
+</blockquote>
+
+<p>and I think that is probably true. So far, I&#8217;ve only written about six (short) entries over two days, but I&#8217;m really enjoying the simple, clean, interface.</p>
+
+<p>What I think will become a key feature for me are the reminders. I used to use <a href='http://ohlife.com/'>ohlife</a> for keeping a journal, something I stuck with for a just over a month, and one of the best features there were the daily email reminders to make an entry. However, whilst it was easy to hit reply and submit your entry, I don&#8217;t think a mail client is where most people do their best writing &#8211; certainly not their most intimate.</p>
+
+<p>The first thing I did when I installed DayOne was to work out how to import my old ohlife entries, something that currently needs to be done using the <code>dayone</code> command line tool. It is very simple to use, and the <a href='https://gist.github.com/977766'>sample script</a> they provide, along with Brett Terpstra&#8217;s <a href='http://brettterpstra.com/logging-with-day-one-geek-style/'>post</a> on using DayOne from the command line had me well on my way to getting my old entries imported.</p>
+
+<p>The ohlife export file simply contains all your entries, with a simple date, content format. I whipped up a quick ruby <a href='https://github.com/davidbeckingsale/ohlife-to-dayone.rb'>script</a> to parse my file and create the new entries and I was done.</p>
+
+<p>Flicking through these old entries (from last August) really highlighted the benefits of keeping some kind of daily log of thoughts/feelings/actions, and it was really interesting to read through some of my old entries, knowing that things I was worrying about had turned out fine, and how things I&#8217;d wanted to happen have now come to pass.</p>
+
+<p>I&#8217;m feeling quite positive that DayOne will help me log enough about each day to be able to look back in 6 months or a year and (hopefully) feel good about what I have done since then!</p></div>
+    </div>
+    
+    
+    
+    
+    
+    <div class="post">
+        
+        <h1><a href="/2012/07/07/Launch-center-pro-post.html">Launch Centre Pro & OmniFocus</a></h1>
+        
+        <div class="date">July  7, 2012 &bullet; <a href="/2012/07/07/Launch-center-pro-post.html">∞</a></div> 
+        <div class="excerpt"><p>Recently, Michael Schechter <a href='http://bettermess.com/omnilaunch/'>posted</a> about using <a href='http://appcubby.com/launch-center/'>Launch Center Pro</a> as a mobile alternative to David Sparks&#8217; TextExpander <a href='http://www.macsparky.com/blog/2012/2/1/text-expander-and-omnifocus.html'>snippets</a> for OmniFocus. I&#8217;d heard about Launch Center Pro before but never really gave it much thought. At first glance it just seemed like an app launcher, and as someone who probably uses less than 10 apps regularly, and without any concrete use cases, it didn&#8217;t seem like something I <em>had</em> to buy.</p>
+
+<p>AppCubby&#8217;s Launch Center Pro, for those as unfamiliar as I was, leads with the line:</p>
+
+<blockquote>
+<p>Launch actions, not just apps!</p>
+</blockquote>
+
+<p>A kind-of-neat phrase that does a good job of summing it up. Whilst I haven&#8217;t fully explored everything that Launch Center Pro does, I have added a few shortcuts to things like calling or texting specific people, as well as the OmniFocus shortcuts Michael described.</p>
+
+<p>The idea is using the url schemes that OmniFocus provides to add tasks with some pre-determined format, and pre-populated data (e.g. from the clipboard). I&#8217;ve copied some of Michael&#8217;s shortcuts, and added a few cribbed from David Sparks&#8217; snippets, my favourite being a &#8216;Conduct Research&#8217; task for things I want to look up. There are two variants, one with, and one without, the clipboard contents included as a note.</p>
+
+<pre><code>	omnifocus:///add?name=Conduct%20research%20re%20
+	omnifocus:///add?name=Conduct%20research%20re%20&amp;note=[clipboard]</code></pre>
+
+<p>As an OmniFocus devotee, and someone who frequently uses TextExpander with OmniFocus on my Mac, this Launch Center Pro trick goes a long way to filling the void left by the lack of TextExpander support in the iOS versions of OmniFocus.</p></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
+
+
+    </article>
+    <footer>
+    <div class="column">
+        <div id="archives">
+            
+            <a href="/2013/02">February 2013</a>  <span class="orange">  &bullet;</span> 
+                
+            
+            <a href="/2013/01">January 2013</a>  <span class="orange">  &bullet;</span> 
+                
+            
+            <a href="/2012/12">December 2012</a>  <span class="orange">  &bullet;</span> 
+                
+            
+            <a href="/2012/11">November 2012</a>  <span class="orange">  </span> 
+                <br />
+            
+            <a href="/2012/10">October 2012</a>  <span class="orange">  &bullet;</span> 
+                
+            
+            <a href="/2012/07">July 2012</a>  <span class="orange">  &bullet;</span> 
+                
+            
+            <a href="/2012/06">June 2012</a>  <span class="orange">  &bullet;</span> 
+                
+            
+            <a href="/2012/02">February 2012</a>  <span class="orange">  </span> 
+                <br />
+            
+            <a href="/2012/01">January 2012</a>  <span class="orange">  
+                
+            
+        </div>
+    <div id="copy">&copy; David Beckingsale 2012 </div>
+    <div id="power">Powered by <a href="https://github.com/mojombo/jekyll/">Jekyll</a> & <a href="http://pages.github.com/">Github Pages</a></div>
+    </div>
+    </footer>
+</body>
+</html>

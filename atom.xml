@@ -1,27 +1,357 @@
----
-layout: nil
----
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>David Beckingsale</title>
  <link href="http://davidbeckingsale.com/atom.xml" rel="self"/>
  <link href="http://davidbeckingsale.com/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <updated>2013-02-02T20:12:46+00:00</updated>
  <id>http://davidbeckingsale.com/</id>
  <author>
    <name>David Beckingsale</name>
    <email>davidbeckingsale@gmail.com</email>
  </author>
 
- {% for post in site.posts %}
+ 
  <entry>
-   <title>{{ post.title | xml_escape }}</title>
-   <link href="http://davidbeckingsale.com{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://davidbeckingsale.com{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <title>Productive Gaming</title>
+   <link href="http://davidbeckingsale.com/2013/02/02/productive-gaming.html"/>
+   <updated>2013-02-02T00:00:00+00:00</updated>
+   <id>http://davidbeckingsale.com/2013/02/02/productive-gaming</id>
+   <content type="html">&lt;p&gt;Jordan Webber takes a look at the taboo of playing games on easy. There are some interesting productive aspects to this - is it worth playing a game on hard just to say you did?&lt;/p&gt;</content>
  </entry>
- {% endfor %}
+ 
+ <entry>
+   <title>Snowballing Passion</title>
+   <link href="http://davidbeckingsale.com/2013/02/01/snowballing-passion.html"/>
+   <updated>2013-02-01T00:00:00+00:00</updated>
+   <id>http://davidbeckingsale.com/2013/02/01/snowballing-passion</id>
+   <content type="html">&lt;p&gt;Ideas, and more specifically capturing ideas, is something that I struggle with. I don&amp;#8217;t know if it&amp;#8217;s because I&amp;#8217;m worried that I don&amp;#8217;t know where to put them, but I always seem to feel a sense of dread when I have an idea. It makes its way into my inbox, and then I&amp;#8217;m paralysed. Admitting that this idea can be realised. Picking a next action. The correlation between concrete steps and seeing the idea birthed. It can be too much. So it sits there for a while, only to become a half-baked &amp;#8220;look into&amp;#8221; type task.&lt;/p&gt;
+
+&lt;p&gt;That&amp;#8217;s not how things get done. While projects are driven by next actions, you&amp;#8217;ll never bring down a monster if you spend all day swatting flies. Projects are driven by passion - whether you know it or not. If you are passionate about a project then it will get done. I don&amp;#8217;t mean passion as in something all consuming and highly romanticised. It can be short-lived. A fleeting five minutes spent engrossed in a Wikipedia article. Often, it turns into an hour or more solving some problem that cropped up whilst you were working. This kind of passion, and the relentless need to get some &lt;em&gt;specific&lt;/em&gt; thing done, can often snowball.&lt;/p&gt;
+
+&lt;p&gt;As I sat down and reworked this site for the third time in two years, I was turning to the project after letting it sit dormant for a few months. Originally, I wanted to create some kind of dynamic landing page, a big advert for everything I do online. I have no idea why I was pretending that&amp;#8217;s what I wanted my website to be. I just want somewhere to write. If I&amp;#8217;m recognised on the Internet, I want it to be for my writing.&lt;/p&gt;
+
+&lt;p&gt;The rework turned out better than expected, and ended up being completed far sooner than I anticipated. Once I thought about why I wanted to change the aesthetics of my site, I realised it was not the aesthetics that I wanted to change. It was the purpose. This clarity drove me towards cleaning up the design, giving myself permission to change without the baggage of the old posts I would rather forget.&lt;/p&gt;
+
+&lt;p&gt;Discovering this purpose turned the project into a passion. Other things were left by the wayside as I pressed ahead with getting this finished. I&amp;#8217;m glad I did. Finishing something big is better than finishing one hundred tiny things.&lt;/p&gt;
+
+&lt;p&gt;Let your passion snowball, driving you to complete bigger projects in great leaps, not tiny steps.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Patrick Rhone's Notebook</title>
+   <link href="http://davidbeckingsale.com/2013/01/31/patrick-rhones-notebook.html"/>
+   <updated>2013-01-31T00:00:00+00:00</updated>
+   <id>http://davidbeckingsale.com/2013/01/31/patrick-rhones-notebook</id>
+   <content type="html">&lt;blockquote&gt;
+&lt;p&gt;This is a snapshot of my life. The moments I felt important to capture at the time. So that every now and again I could look back and marvel at it all. That it has brought me to this empty page. To reflect before the next moment begins to write a new entry in another book.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href='http://patrickrhone.com'&gt;Patrick Rhone&lt;/a&gt; nails how to use a notebook.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Marco Arment - Çingleton 2012</title>
+   <link href="http://davidbeckingsale.com/2013/01/28/marco-arment---cingleton-2012.html"/>
+   <updated>2013-01-28T00:00:00+00:00</updated>
+   <id>http://davidbeckingsale.com/2013/01/28/marco-arment---cingleton-2012</id>
+   <content type="html">&lt;p&gt;&lt;a href='http://marco.org'&gt;Marco Arment&amp;#8217;s&lt;/a&gt; talk from &lt;a href='http://cingleton.com/en'&gt;Çingleton 2012&lt;/a&gt; is a great watch. I really like the message he is conveying. To scale your skills, you need to put yourself in an environment that forces your skills to scale. It almost happens automatically. It&amp;#8217;s a refreshing change from the idea that to be good, you have to make incredible sacrifices and focus on one thing to the exclusion of everything else.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>On The Verge Episode 002: John Gruber</title>
+   <link href="http://davidbeckingsale.com/2013/01/27/on-the-verge-episode-002-john-gruber.html"/>
+   <updated>2013-01-27T00:00:00+00:00</updated>
+   <id>http://davidbeckingsale.com/2013/01/27/on-the-verge-episode-002-john-gruber</id>
+   <content type="html">&lt;blockquote&gt;
+&lt;p&gt;To me, a blog is a medium, not a verb. I write.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This episode of &lt;em&gt;On The Verge&lt;/em&gt; is still a great watch, even though it&amp;#8217;s now over a year old.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Greatest Hits and New Beginnings</title>
+   <link href="http://davidbeckingsale.com/2013/01/24/greatest-hits-and-new-beginnings.html"/>
+   <updated>2013-01-24T00:00:00+00:00</updated>
+   <id>http://davidbeckingsale.com/2013/01/24/greatest-hits-and-new-beginnings</id>
+   <content type="html">&lt;p&gt;In the past few years, if you have been one of the very small number of people to have stumbled upon this blog, you will have noticed a distinct lack of two things in my posts: quality, and frequency. I&amp;#8217;m not sure why it&amp;#8217;s been such a struggle to really get this blog off the ground, but it has.&lt;/p&gt;
+
+&lt;p&gt;Whilst, like everyone else, I agree that resolutions are a pretty bad idea, I have &lt;em&gt;resolved&lt;/em&gt; to expend significant effort this year in improving the kind of content I create and share on this very website.&lt;/p&gt;
+
+&lt;p&gt;Moving forward, I&amp;#8217;m going to focus on creating the kind of content that I love to consume. Blogs like &lt;a href='http://hackmake.org/'&gt;Hack / Make&lt;/a&gt;, &lt;a href='http://macdrifter.com/'&gt;Macdrifter&lt;/a&gt;, and &lt;a href='http://bettermess.com/'&gt;A Better Mess&lt;/a&gt;, as well as podcasts like &lt;a href='http://5by5.tv/b2w'&gt;Back To Work&lt;/a&gt; are a huge influence on the way I work, and the way that I view tainted buzzwords like &amp;#8220;productivity&amp;#8221;. Whilst I don&amp;#8217;t consider myself to be in the same league as those guys, it helps to know your heroes. Hopefully, in the coming months the posts here will drill down into the personal issues that we face with our struggle to get more done. By integrating deeper concepts, borrowed from areas such as Bhuddism, into the tips &amp;#8216;n&amp;#8217; tricks popular with the Lifehacker crowd, we can hope to create systems that are both meaningful and practical, without getting lost in the details.&lt;/p&gt;
+
+&lt;p&gt;Avoiding the numerous traps you set for your self on the journey to creating something can be a tricky business. When I decided to revamp and refocus this blog on what I actually care about, my next action was &amp;#8220;find a new tool&amp;#8221;. After only a few months with Jekyll, I was already looking for something new to fiddle with. Bombarding myself with &amp;#8220;what if&amp;#8221; questions, I was trying to prematurely optimise the blog with feature after feature, meaningless cruft that would only serve to distract from any posts that I have managed to craft into an engaging narrative. After a few days deep in the throes of a CMS identity crisis, something clicked: this doesn&amp;#8217;t matter. The forever and a day that I could spend worrying about which static blogging system to play with, which font to use, which CSS framework to base the site, would only get in the way of the actual creating - the whole reason I wanted to overhaul this site in the first place.&lt;/p&gt;
+
+&lt;p&gt;Picking the right tool for the job isn&amp;#8217;t easy, and with a virtually limitless amount of information available on the web, finding the perfect tool is damn near impossible. Don&amp;#8217;t look for the perfect tool. Understanding what you really want, identifying your desired outcomes, frees you from concerns about tools. The meaning behind what you create, whether you have it in a professionally-themed Wordpress blog or a plain-text Gist on GitHub, remains the same. I don&amp;#8217;t want to let meaning be obscured, or delayed, by tools.&lt;/p&gt;
+
+&lt;p&gt;There&amp;#8217;s never been a better time to be mindful of the way you work.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Adding PDFs to Papers2 with maid</title>
+   <link href="http://davidbeckingsale.com/2012/12/21/adding-papers-to-papers.html"/>
+   <updated>2012-12-21T00:00:00+00:00</updated>
+   <id>http://davidbeckingsale.com/2012/12/21/adding-papers-to-papers</id>
+   <content type="html">&lt;p&gt;Often, when processing journal RSS feeds, I&amp;#8217;ll find quite a few articles that I want to read. I use &lt;a href='http://www.mekentosj.com/papers/'&gt;Papers2&lt;/a&gt; to manage my papers, so the first thing I need to do is import these newly-downloaded files.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href='https://github.com/benjaminoakes/maid'&gt;&lt;code&gt;maid&lt;/code&gt;&lt;/a&gt; gem makes this easy to do automatically. I&amp;#8217;ve added the following rule to my &lt;code&gt;rules.rb&lt;/code&gt; file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rule &amp;#39;Add PDFs to Papers2&amp;#39; do
+  dir(&amp;#39;~/Downloads/*.pdf&amp;#39;).each do |path|
+    is_paper = `mdfind -onlyin ~/Downloads/ computing`
+
+      if is_paper.include?(path)
+        `open -a Papers2 &amp;quot;#{path}&amp;quot;`
+      end
+  end
+end&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It&amp;#8217;s not perfect, but it &lt;em&gt;is&lt;/em&gt; perfectly functional. Every time I run &lt;code&gt;maid
+clean&lt;/code&gt;, any PDFs that contain the word &amp;#8220;computing&amp;#8221; will be automatically imported into Papers. Obviously the word used to select papers will vary depending on your field, but the rule is trivial to modify.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>For the Sake of Becoming</title>
+   <link href="http://davidbeckingsale.com/2012/11/26/hack-make-becoming.html"/>
+   <updated>2012-11-26T00:00:00+00:00</updated>
+   <id>http://davidbeckingsale.com/2012/11/26/hack-make-becoming</id>
+   <content type="html">&lt;p&gt;Nick Wynja, &lt;a href='http://hackmake.org/2012/10/31/for-the-sake-of-becoming'&gt;For the Sake of Becoming&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;It&amp;#8217;s about becoming. Becoming is cyclical and perpetual. When you think you&amp;#8217;ve “arrived”, you’re only just at the beginning of a new place. In this cycle of becoming is where you have to give and take between the burden and the solace of creating great things. At times, you&amp;#8217;ll be burdened by your desire to make something insanely great. That will lead you into a path of suffering and discouragement; a place of character building and of gaining understanding. In the other season of that cycle comes actualization and a freedom to create the great things you just struggled to find in yourself.&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Mac Power Users: Episode 100</title>
+   <link href="http://davidbeckingsale.com/2012/11/24/mpu-100.html"/>
+   <updated>2012-11-24T00:00:00+00:00</updated>
+   <id>http://davidbeckingsale.com/2012/11/24/mpu-100</id>
+   <content type="html">&lt;p&gt;In August, the Mac Power Users podcast reached its 100th episode. They were joined by a number of listeners who shared their Mac workflows. The most useful thing were the academics featured in the episode.&lt;/p&gt;
+
+&lt;p&gt;They talked about a load of great tools, including my favourites &lt;a href='http://www.mekentosj.com/papers/2.0/'&gt;Papers&lt;/a&gt; and &lt;a href='http://skim-app.sourceforge.net/'&gt;Skim&lt;/a&gt;, and shared some great ways of using these more efficiently. If you are an academic and use a Mac (quite likely from my experience), then you should really check it out!&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Concatenate PDF files on OSX</title>
+   <link href="http://davidbeckingsale.com/2012/11/08/concatenate-pdf-osx.html"/>
+   <updated>2012-11-08T00:00:00+00:00</updated>
+   <id>http://davidbeckingsale.com/2012/11/08/concatenate-pdf-osx</id>
+   <content type="html">&lt;blockquote&gt;
+&lt;p&gt;It turns out that from Tiger onwards, OSX ships with a Python script that does exactly what you need. The script is already executable, and Python is pre-installed on OS X, so all you need to do to run it is opening the Terminal and typing&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;quot;/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py&amp;quot; -o PATH/TO/YOUR/MERGED/FILE.pdf /PATH/TO/ORIGINAL/1.pdf /PATH/TO/ANOTHER/2.pdf /PATH/TO/A/WHOLE/DIR/*.pdf&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>DHH tweet about Ruby vs. PHP</title>
+   <link href="http://davidbeckingsale.com/2012/10/04/dhh-tweet-re-rails.html"/>
+   <updated>2012-10-04T00:00:00+01:00</updated>
+   <id>http://davidbeckingsale.com/2012/10/04/dhh-tweet-re-rails</id>
+   <content type="html">&lt;p&gt;David Heinemeier Hansson tweeted a link to a great &lt;a href='http://37signals.com/svn/archives/000606.php'&gt;post&lt;/a&gt; on the 37signals blog about using Ruby on Rails for Basecamp. It&amp;#8217;s interesting that most comments portray the relative infancy of Ruby on Rails, in a way that would seem completely foreign today:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;What is MVC? (&amp;#8230;I&amp;#8217;m a curious newbie programmer sitting on the sidelines listening intently to this conversation&amp;#8230;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;To which dhh replies:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;MVC is a way to separate the three basic concerns of an application into isolated tiers, which can be constructed, tweaked, and tested apart from the others. MVC is short for Model, View, Control.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Which technologies are you beginning to understand today, that you couldn&amp;#8217;t imagine people &lt;em&gt;not&lt;/em&gt; understanding in a few years?&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Prototyping with Markup</title>
+   <link href="http://davidbeckingsale.com/2012/10/02/prototyping-in-markup.html"/>
+   <updated>2012-10-02T00:00:00+01:00</updated>
+   <id>http://davidbeckingsale.com/2012/10/02/prototyping-in-markup</id>
+   <content type="html">&lt;p&gt;It feels like I&amp;#8217;m always redesigning this site. Mostly, it&amp;#8217;s because I am, and I think that anyone who has gone to the trouble of designing and coding up their own website will inevitably find themselves in the design/implement/redesign cycle.&lt;/p&gt;
+
+&lt;p&gt;Normally, the style of my site is based around what I &lt;em&gt;can&lt;/em&gt; do, rather than what I have in mind. This normally happens because I work in HTML and CSS, rather than prototyping in something like Photoshop. This time around I decided to come up with a solid prototype before messing around with code, so did some googling to see what I could find. I came across a great post on &lt;a href='http://24ways.org'&gt;24 ways&lt;/a&gt; &amp;#8211; &lt;a href='http://24ways.org/2009/make-your-mockup-in-markup'&gt;Make Your Mockup in Markup&lt;/a&gt; &amp;#8211; which presents a great series of steps for developing your design without resorting to an image editor.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>A Different Kind of Tech Presentation</title>
+   <link href="http://davidbeckingsale.com/2012/07/14/a-different-kind-of-tech-presentation.html"/>
+   <updated>2012-07-14T00:00:00+01:00</updated>
+   <id>http://davidbeckingsale.com/2012/07/14/a-different-kind-of-tech-presentation</id>
+   <content type="html">&lt;p&gt;Rob Conery&amp;#8217;s &lt;a href='http://wekeroad.com/2012/07/04/try-it-quiet'&gt;presentation&lt;/a&gt; from the Norwegian Developers Conference is well worth a watch. Rather than flash up some slides and example code that doesn&amp;#8217;t really tell you anything about the language, he decided to code. Just code. As he says on his blog:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I sat down and coded to some fun music for 50 solid minutes.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The video is well worth a watch as it really gets across the atmosphere of the room, and the music fits the presentation almost perfectly. Rob makes surprisingly few typos (I forget how to touch type if someone walks past me!), and the presentation flows smoothly through many aspects of Node. I feel like I learned more from casually watching this than I would have from spending a few hours typing out &amp;#8220;Hello, world!&amp;#8221; tutorials, and I really thing that is what Rob was trying to put across.&lt;/p&gt;
+
+&lt;p&gt;A fantastic model for tech presentations, if you can pull it off!&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Logging Blog Ideas</title>
+   <link href="http://davidbeckingsale.com/2012/07/12/logging-blog-ideas.html"/>
+   <updated>2012-07-12T00:00:00+01:00</updated>
+   <id>http://davidbeckingsale.com/2012/07/12/logging-blog-ideas</id>
+   <content type="html">&lt;p&gt;Like most people these days, I&amp;#8217;d like to blog more. A key part of that is finding things to write about. Whenever I had an idea, I would open up nvALT, find my list of ideas, then add a new idea to the bottom. None of those steps are too difficult, but they do cause a fairly lengthy disruption if you are in the middle of something else. To streamline the process, I used &lt;a href='http://www.alfredapp.com/'&gt;Alfred&lt;/a&gt;, an application launcher from &lt;a href='http://www.runningwithcrayons.com/'&gt;Running With Crayons&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;One great feature of Alfred is the ability to trigger a shell script, along with passing it an optional parameter. A simple shell script to log ideas would look something like this:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='bash'&gt;	&lt;span class='nb'&gt;echo&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;idea&amp;quot;&lt;/span&gt; &amp;gt;&amp;gt; ~/Dropbox/notes/blog_ideas.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Combining that with Alfred means that I can replace whatever is inside the quotes with a parameter that Alfred will pass to the script. The value this parameter takes will be whatever you type after the keyword you use to trigger your script. The actual script you need to put in Alfred looks something like this:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='bash'&gt;&lt;span class='nb'&gt;echo&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;- {query}&amp;quot;&lt;/span&gt; &amp;gt;&amp;gt; /Users/david/Dropbox/notes/blog_ideas.md 
+    &lt;span class='o'&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class='nb'&gt;echo&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;Added {query} to blog ideas…&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I use a hyphen at the start of the item because I maintain my file as a markdown list. The echo at the end gives me a &lt;a href='http://growl.info/'&gt;Growl&lt;/a&gt; notification with whatever was added to my list of ideas. I can now hit ⌘-Space to bring up Alfred, then type &amp;#8220;blog &amp;#8216;new idea&amp;#8217;&amp;#8220;, and get a new line at the end of my ideas file.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Journaling with DayOne</title>
+   <link href="http://davidbeckingsale.com/2012/07/08/journaling-with-dayone.html"/>
+   <updated>2012-07-08T00:00:00+01:00</updated>
+   <id>http://davidbeckingsale.com/2012/07/08/journaling-with-dayone</id>
+   <content type="html">&lt;p&gt;Yesterday, I took the plunge and invested a whole ~£4.50 buying &lt;a href='http://dayoneapp.com/'&gt;DayOne&lt;/a&gt; for both OS X and iOS. The app is billed as&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The easiest to use journal / diary / text logging application for the Mac&amp;#8230;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;and I think that is probably true. So far, I&amp;#8217;ve only written about six (short) entries over two days, but I&amp;#8217;m really enjoying the simple, clean, interface.&lt;/p&gt;
+
+&lt;p&gt;What I think will become a key feature for me are the reminders. I used to use &lt;a href='http://ohlife.com/'&gt;ohlife&lt;/a&gt; for keeping a journal, something I stuck with for a just over a month, and one of the best features there were the daily email reminders to make an entry. However, whilst it was easy to hit reply and submit your entry, I don&amp;#8217;t think a mail client is where most people do their best writing &amp;#8211; certainly not their most intimate.&lt;/p&gt;
+
+&lt;p&gt;The first thing I did when I installed DayOne was to work out how to import my old ohlife entries, something that currently needs to be done using the &lt;code&gt;dayone&lt;/code&gt; command line tool. It is very simple to use, and the &lt;a href='https://gist.github.com/977766'&gt;sample script&lt;/a&gt; they provide, along with Brett Terpstra&amp;#8217;s &lt;a href='http://brettterpstra.com/logging-with-day-one-geek-style/'&gt;post&lt;/a&gt; on using DayOne from the command line had me well on my way to getting my old entries imported.&lt;/p&gt;
+
+&lt;p&gt;The ohlife export file simply contains all your entries, with a simple date, content format. I whipped up a quick ruby &lt;a href='https://github.com/davidbeckingsale/ohlife-to-dayone.rb'&gt;script&lt;/a&gt; to parse my file and create the new entries and I was done.&lt;/p&gt;
+
+&lt;p&gt;Flicking through these old entries (from last August) really highlighted the benefits of keeping some kind of daily log of thoughts/feelings/actions, and it was really interesting to read through some of my old entries, knowing that things I was worrying about had turned out fine, and how things I&amp;#8217;d wanted to happen have now come to pass.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m feeling quite positive that DayOne will help me log enough about each day to be able to look back in 6 months or a year and (hopefully) feel good about what I have done since then!&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Launch Centre Pro &amp; OmniFocus</title>
+   <link href="http://davidbeckingsale.com/2012/07/07/Launch-center-pro-post.html"/>
+   <updated>2012-07-07T00:00:00+01:00</updated>
+   <id>http://davidbeckingsale.com/2012/07/07/Launch-center-pro-post</id>
+   <content type="html">&lt;p&gt;Recently, Michael Schechter &lt;a href='http://bettermess.com/omnilaunch/'&gt;posted&lt;/a&gt; about using &lt;a href='http://appcubby.com/launch-center/'&gt;Launch Center Pro&lt;/a&gt; as a mobile alternative to David Sparks&amp;#8217; TextExpander &lt;a href='http://www.macsparky.com/blog/2012/2/1/text-expander-and-omnifocus.html'&gt;snippets&lt;/a&gt; for OmniFocus. I&amp;#8217;d heard about Launch Center Pro before but never really gave it much thought. At first glance it just seemed like an app launcher, and as someone who probably uses less than 10 apps regularly, and without any concrete use cases, it didn&amp;#8217;t seem like something I &lt;em&gt;had&lt;/em&gt; to buy.&lt;/p&gt;
+
+&lt;p&gt;AppCubby&amp;#8217;s Launch Center Pro, for those as unfamiliar as I was, leads with the line:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Launch actions, not just apps!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A kind-of-neat phrase that does a good job of summing it up. Whilst I haven&amp;#8217;t fully explored everything that Launch Center Pro does, I have added a few shortcuts to things like calling or texting specific people, as well as the OmniFocus shortcuts Michael described.&lt;/p&gt;
+
+&lt;p&gt;The idea is using the url schemes that OmniFocus provides to add tasks with some pre-determined format, and pre-populated data (e.g. from the clipboard). I&amp;#8217;ve copied some of Michael&amp;#8217;s shortcuts, and added a few cribbed from David Sparks&amp;#8217; snippets, my favourite being a &amp;#8216;Conduct Research&amp;#8217; task for things I want to look up. There are two variants, one with, and one without, the clipboard contents included as a note.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;	omnifocus:///add?name=Conduct%20research%20re%20
+	omnifocus:///add?name=Conduct%20research%20re%20&amp;amp;note=[clipboard]&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As an OmniFocus devotee, and someone who frequently uses TextExpander with OmniFocus on my Mac, this Launch Center Pro trick goes a long way to filling the void left by the lack of TextExpander support in the iOS versions of OmniFocus.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Git Aliases</title>
+   <link href="http://davidbeckingsale.com/2012/06/16/Git-aliases.html"/>
+   <updated>2012-06-16T00:00:00+01:00</updated>
+   <id>http://davidbeckingsale.com/2012/06/16/Git-aliases</id>
+   <content type="html">&lt;p&gt;Working with &lt;code&gt;git&lt;/code&gt; necessarily involves a lot of command repetition. Checking the status of files, adding files to the staging area, checking diffs, and committing files. These are commands that you are going to issue many times a day. As soon as you are working with remote repos you can throw in a few more &amp;#8211; pushing and pulling for starters.&lt;/p&gt;
+
+&lt;p&gt;Having a core set of frequently used commands is not a problem, and highlights the simple commands that allow you to use &lt;code&gt;git&lt;/code&gt; effectively. With a few aliases in our shell configuration, we can cut down the time it takes to issue these commands, and more efficiently work with git on the command line.&lt;/p&gt;
+
+&lt;h2 id='in_your_shell'&gt;In your shell&lt;/h2&gt;
+
+&lt;p&gt;The first thing I do is alias the &lt;code&gt;git&lt;/code&gt; command to &lt;code&gt;g&lt;/code&gt;. Moving from 3 letters to one is not a huge difference, but it does start to add up, especially when combined with some of the following shortcuts.&lt;/p&gt;
+
+&lt;h2 id='in_your_'&gt;In your &lt;code&gt;.gitrc&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;This set of aliases belong in your &lt;code&gt;.gitrc&lt;/code&gt; file, where you can set up shorter aliases for all of &lt;code&gt;git&lt;/code&gt;&amp;#8217;s subcommands. These need to go under &lt;code&gt;[aliases]&lt;/code&gt; in your .gitrc:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;s status
+c commit
+a add
+p push&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With these aliases in place, &lt;code&gt;git commit&lt;/code&gt; becomes &lt;code&gt;git c&lt;/code&gt;, or even &lt;code&gt;g c&lt;/code&gt; if you have already aliased &lt;code&gt;git&lt;/code&gt; to &lt;code&gt;g&lt;/code&gt; in your shell configuration.&lt;/p&gt;
+
+&lt;h2 id='back_in_your_shell'&gt;Back in your shell&lt;/h2&gt;
+
+&lt;p&gt;The next tip comes from Peepcode&amp;#8217;s &lt;a href='https://peepcode.com/products/advanced-git'&gt;Advanced Git&lt;/a&gt; screencast, where they talk about adding even shorter git alisases to your shell configuration. Basically, you just take out the space between git and your subcommand. For example, I would alias &lt;code&gt;ga&lt;/code&gt; to &lt;code&gt;g a&lt;/code&gt;, which would in turn perform a &lt;code&gt;git add&lt;/code&gt;. Not needing to type the spaces doesn&amp;#8217;t sound like a big improvement, but as I said before, it all adds up.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Logging OmniFocus to Markdown</title>
+   <link href="http://davidbeckingsale.com/2012/02/26/Logging-OmniFocus-to-Markdown.html"/>
+   <updated>2012-02-26T00:00:00+00:00</updated>
+   <id>http://davidbeckingsale.com/2012/02/26/Logging-OmniFocus-to-Markdown</id>
+   <content type="html">&lt;p&gt;I&amp;#8217;ve been looking for a way to keep track of what I have got done everyday, when I stumbled on &lt;a href='https://gist.github.com/1903137'&gt;this&lt;/a&gt; script by &lt;a href='http://jeredb.com/2012/02/24/Omnifocus_to_Day_One_daily_log_of_completed_tasks.html'&gt;Jered Benoit&lt;/a&gt;, via &lt;a href='http://brettterpstra.com/automating-taskpaper-to-day-one-logs/'&gt;Brett Terpstra&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;#8217;t use DayOne, so I forked the script and tweaked it to output to a dated Markdown file in my &lt;code&gt;~/Dropbox/notes/&lt;/code&gt; folder, which is where I point both &lt;a href='http://brettterpstra.com/project/nvalt/'&gt;NvALT&lt;/a&gt; and &lt;a href='http://simplenoteapp.com/'&gt;Simplenote&lt;/a&gt;. The script is available as a &lt;a href='https://gist.github.com/1918045'&gt;gist&lt;/a&gt;, so hopefully someone else might find this useful.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Aggresive Resize - Make tmux windows as big as possible</title>
+   <link href="http://davidbeckingsale.com/2012/02/13/Tmux-aggresive-resize.html"/>
+   <updated>2012-02-13T00:00:00+00:00</updated>
+   <id>http://davidbeckingsale.com/2012/02/13/Tmux-aggresive-resize</id>
+   <content type="html">&lt;p&gt;Via &lt;a href='http://mutelight.org/articles/practical-tmux'&gt;Practical Tmux&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Aggressive Resize&lt;/p&gt;
+
+&lt;p&gt;By default, all windows in a session are constrained to the size of the smallest client connected to that session, even if both clients are looking at different windows. It seems that in this particular case, Screen has the better default where a window is only constrained in size if a smaller client is actively looking at it. This behaviour can be fixed by setting tmux&amp;#8217;s aggressive-resize option.&lt;/p&gt;
+
+&lt;p&gt;setw -g aggressive-resize on&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Great if you are connected to a session on both a laptop and a desktop machine.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Unread Papers on Papers for iOS</title>
+   <link href="http://davidbeckingsale.com/2012/02/05/Papers-iOS.html"/>
+   <updated>2012-02-05T00:00:00+00:00</updated>
+   <id>http://davidbeckingsale.com/2012/02/05/Papers-iOS</id>
+   <content type="html">&lt;p&gt;When I first purchased &lt;a href='http://www.mekentosj.com/papers/'&gt;Papers&lt;/a&gt; for Mac, I was enamoured with its feature set. I would probably describe it as &amp;#8216;iTunes for papers&amp;#8217;. One of the things I liked the most was how it would highlight any unread papers in your collection, making it easy to see what you needed to read. When I bought the &lt;a href='http://itunes.apple.com/gb/app/papers/id304655618?mt=8'&gt;iOS version&lt;/a&gt; from the App Store later the same day, I was disappointed to find that identifying my unread papers on the iPad was far less trivial, impossible in fact.&lt;/p&gt;
+
+&lt;p&gt;After a couple of days&amp;#8217; mulling things over, I hit upon a simple and easy to implement solution. Simply create a new &lt;em&gt;Smart Collection&lt;/em&gt;, and then use the following settings:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Display Papers matching all of the following conditions: &lt;br /&gt; Paper read NO&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And there you have it, an &lt;em&gt;Unread Papers&lt;/em&gt; collection on your iOS device. I still haven&amp;#8217;t figured out how to mark things as read when I&amp;#8217;m on the go, so if you know how to do that then please let me know.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Minimalist workspaces</title>
+   <link href="http://davidbeckingsale.com/2012/01/01/Minimalist-workspace.html"/>
+   <updated>2012-01-01T00:00:00+00:00</updated>
+   <id>http://davidbeckingsale.com/2012/01/01/Minimalist-workspace</id>
+   <content type="html">&lt;p&gt;I came across &lt;a href='http://patdryburgh.com/'&gt;Pat Dryburgh&amp;#8217;s&lt;/a&gt; &lt;a href='http://patdryburgh.com/blog/shutting-down-my-porno-site/'&gt;post&lt;/a&gt; about shutting down Simple Desks via &lt;a href='http://brooksreview.net/2011/12/simple-porn/'&gt;Ben Brooks&amp;#8217;s&lt;/a&gt; site. I understand his (and many other people&amp;#8217;s) position on these &lt;em&gt;minimalist&lt;/em&gt; workspaces. However, I do have a few thoughts on the utility of a &lt;em&gt;minimalist&lt;/em&gt; or more correctly, a tidy workspace.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;And, if I had any doubts about whether this was the right thing to do, hearing &lt;a href='http://merlinmann.com'&gt;Merlin Mann&lt;/a&gt; and &lt;a href='http://danbenjamin.com'&gt;Dan Benjamin&lt;/a&gt; discuss the fetishism of minimalism on a &lt;a href='http://5by5.tv/b2w/46'&gt;recent episode of Back to Work&lt;/a&gt; quickly put them to rest.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The above quote is from Pat&amp;#8217;s &lt;a href='http://patdryburgh.com/blog/shutting-down-my-porno-site/'&gt;article&lt;/a&gt; referencing an episode of Back to Work, which I also listened, to that first got me thinking about &lt;em&gt;minimalist&lt;/em&gt; workspaces.&lt;/p&gt;
+
+&lt;p&gt;Something that I don&amp;#8217;t think has been mentioned and perhaps should be is the difference between a &lt;em&gt;minimalist&lt;/em&gt; desk, and a &lt;em&gt;tidy&lt;/em&gt; desk. The distinction is subtle here, much like the distinction between &lt;strong&gt;life&lt;/strong&gt; &lt;em&gt;hacks&lt;/em&gt; and &lt;em&gt;life&lt;/em&gt; &lt;strong&gt;hacks&lt;/strong&gt;&lt;sup id='fnref:1'&gt;&lt;a href='#fn:1' rel='footnote'&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;I think the whole point of a minimalist workspace, to me anyway, is to remove any fake barriers to work. Would you rather sit down and start working in a bomb site, or a desk that looks like it was straight out of the Ikea catalogue?&lt;/p&gt;
+
+&lt;p&gt;Once you start work, your desk will quite likely turn into a tip. This is how it should be. When I have been at my desk for a few hours there will inevitably be paper, pens, crumbs, coffee mugs, and other assorted detritus all over it. At the end of the day though, I will make an effort to clean everything back up, so I know that the next morning, the thought of spending 20 minutes futzing around and tidying won&amp;#8217;t even cross my mind.&lt;/p&gt;
+
+&lt;p&gt;Regardless of the skepticism with which you regard these &lt;em&gt;minimalist&lt;/em&gt; workspaces, bear in the mind the barriers you might accidentally create for yourself by effectively saying &lt;em&gt;&amp;#8220;F*** it,&amp;#8221;&lt;/em&gt; and leaving your workspace in a mess.&lt;/p&gt;
+&lt;div class='footnotes'&gt;&lt;hr /&gt;&lt;ol&gt;&lt;li id='fn:1'&gt;
+&lt;p&gt;Note the emphasis on &lt;strong&gt;life&lt;/strong&gt; versus the emphasis on &lt;strong&gt;hacks&lt;/strong&gt;&lt;/p&gt;
+&lt;a href='#fnref:1' rev='footnote'&gt;&amp;#8617;&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content>
+ </entry>
+ 
  
 </feed>
