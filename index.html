@@ -30,6 +30,18 @@
     
     <div class="post">
         
+        <h1><a href="http://brettterpstra.com/2013/02/09/quick-tip-jumping-to-the-finder-location-in-terminal/">Jumping to the Finder Location in Terminal ⇒</a><span class="date"></span></h1>
+        
+        <div class="date">February 11, 2013 &bullet; <a href="/2013/02/11/jumping-to-the-finder-location-in-terminal.html">∞</a></div> 
+        <div class="excerpt"><blockquote>
+<p>Combine the speed and Unix power of the shell with the convenience and added functionality of Finder!</p>
+</blockquote>
+
+<p>This a great little bash function from Brett Terpstra to <code>cd</code> into whatever directory is currently open in Finder. This is perfect for coding where you want to visually explore the project structure before jumping in and making some changes.</p></div>
+    </div>
+    
+    <div class="post">
+        
         <h1><a href="/2013/02/10/on-notebooks.html">On Notebooks</a></h1>
         
         <div class="date">February 10, 2013 &bullet; <a href="/2013/02/10/on-notebooks.html">∞</a></div> 
@@ -217,23 +229,6 @@ clean</code>, any PDFs that contain the word &#8220;computing&#8221; will be aut
 <p>The video is well worth a watch as it really gets across the atmosphere of the room, and the music fits the presentation almost perfectly. Rob makes surprisingly few typos (I forget how to touch type if someone walks past me!), and the presentation flows smoothly through many aspects of Node. I feel like I learned more from casually watching this than I would have from spending a few hours typing out &#8220;Hello, world!&#8221; tutorials, and I really thing that is what Rob was trying to put across.</p>
 
 <p>A fantastic model for tech presentations, if you can pull it off!</p></div>
-    </div>
-    
-    <div class="post">
-        
-        <h1><a href="/2012/07/12/logging-blog-ideas.html">Logging Blog Ideas</a></h1>
-        
-        <div class="date">July 12, 2012 &bullet; <a href="/2012/07/12/logging-blog-ideas.html">∞</a></div> 
-        <div class="excerpt"><p>Like most people these days, I&#8217;d like to blog more. A key part of that is finding things to write about. Whenever I had an idea, I would open up nvALT, find my list of ideas, then add a new idea to the bottom. None of those steps are too difficult, but they do cause a fairly lengthy disruption if you are in the middle of something else. To streamline the process, I used <a href='http://www.alfredapp.com/'>Alfred</a>, an application launcher from <a href='http://www.runningwithcrayons.com/'>Running With Crayons</a>.</p>
-
-<p>One great feature of Alfred is the ability to trigger a shell script, along with passing it an optional parameter. A simple shell script to log ideas would look something like this:</p>
-<div class='highlight'><pre><code class='bash'>	<span class='nb'>echo</span> <span class='s2'>&quot;idea&quot;</span> &gt;&gt; ~/Dropbox/notes/blog_ideas.txt
-</code></pre></div>
-<p>Combining that with Alfred means that I can replace whatever is inside the quotes with a parameter that Alfred will pass to the script. The value this parameter takes will be whatever you type after the keyword you use to trigger your script. The actual script you need to put in Alfred looks something like this:</p>
-<div class='highlight'><pre><code class='bash'><span class='nb'>echo</span> <span class='s2'>&quot;- {query}&quot;</span> &gt;&gt; /Users/david/Dropbox/notes/blog_ideas.md 
-    <span class='o'>&amp;&amp;</span> <span class='nb'>echo</span> <span class='s2'>&quot;Added {query} to blog ideas…&quot;</span>
-</code></pre></div>
-<p>I use a hyphen at the start of the item because I maintain my file as a markdown list. The echo at the end gives me a <a href='http://growl.info/'>Growl</a> notification with whatever was added to my list of ideas. I can now hit ⌘-Space to bring up Alfred, then type &#8220;blog &#8216;new idea&#8217;&#8220;, and get a new line at the end of my ideas file.</p></div>
     </div>
     
 </div>
