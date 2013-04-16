@@ -4,13 +4,23 @@
  <title>David Beckingsale</title>
  <link href="http://davidbeckingsale.com/atom.xml" rel="self"/>
  <link href="http://davidbeckingsale.com/"/>
- <updated>2013-04-13T10:23:32+01:00</updated>
+ <updated>2013-04-16T18:17:24+01:00</updated>
  <id>http://davidbeckingsale.com/</id>
  <author>
    <name>David Beckingsale</name>
    <email>davidbeckingsale@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Small Wins</title>
+   <link href="http://davidbeckingsale.com/2013/04/16/small-wins.html"/>
+   <updated>2013-04-16T00:00:00+01:00</updated>
+   <id>http://davidbeckingsale.com/2013/04/16/small-wins</id>
+   <content type="html">&lt;p&gt;When watching the video of Koroush Dini speaking at &lt;a href='http://omni.gp/thesetup/'&gt;The OmniFocus Setup&lt;/a&gt;, one thing that came to mind was how GTD (and OmniFocus) lets you accomplish &lt;em&gt;small wins&lt;/em&gt;, where you knock a load of tasks off your list early in the day. This frees you up to tackle what Koroush describes as &lt;em&gt;creative tasks&lt;/em&gt;, tasks where you don&amp;#8217;t know what you are making until you have made it.&lt;/p&gt;
+
+&lt;p&gt;I love taking lots of small steps to make progress on projects early in the day, and feel like it removes the obligation to &amp;#8220;accomplish&amp;#8221; anything when I&amp;#8217;m working on a more creative task later in the day. Creative tasks that I come up against are normally writing papers and debugging code, both of which can make it hard to feel like you&amp;#8217;ve achieved much. When I&amp;#8217;m safe in the knowledge that I &lt;em&gt;am&lt;/em&gt; getting stuff done, I feel better about working on these open-ended challenges.&lt;/p&gt;</content>
+ </entry>
  
  <entry>
    <title>On Keeping a Notebook in the Digital Age</title>

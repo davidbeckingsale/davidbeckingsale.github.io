@@ -32,6 +32,16 @@
     
     <div class="post">
         
+        <h1><a href="/2013/04/16/small-wins.html">Small Wins</a></h1>
+        
+        <div class="date">April 16, 2013 &bullet; <a href="/2013/04/16/small-wins.html">∞</a></div> 
+        <div class="excerpt"><p>When watching the video of Koroush Dini speaking at <a href='http://omni.gp/thesetup/'>The OmniFocus Setup</a>, one thing that came to mind was how GTD (and OmniFocus) lets you accomplish <em>small wins</em>, where you knock a load of tasks off your list early in the day. This frees you up to tackle what Koroush describes as <em>creative tasks</em>, tasks where you don&#8217;t know what you are making until you have made it.</p>
+
+<p>I love taking lots of small steps to make progress on projects early in the day, and feel like it removes the obligation to &#8220;accomplish&#8221; anything when I&#8217;m working on a more creative task later in the day. Creative tasks that I come up against are normally writing papers and debugging code, both of which can make it hard to feel like you&#8217;ve achieved much. When I&#8217;m safe in the knowledge that I <em>am</em> getting stuff done, I feel better about working on these open-ended challenges.</p></div>
+    </div>
+    
+    <div class="post">
+        
         <h1><a href="http://lifehacker.com/5990573/on-keeping-a-notebook-in-the-digital-age">On Keeping a Notebook in the Digital Age ⇒</a><span class="date"></span></h1>
         
         <div class="date">April 13, 2013 &bullet; <a href="/2013/04/13/on-keeping-a-notebook.html">∞</a></div> 
@@ -238,29 +248,6 @@
 <p>Picking the right tool for the job isn&#8217;t easy, and with a virtually limitless amount of information available on the web, finding the perfect tool is damn near impossible. Don&#8217;t look for the perfect tool. Understanding what you really want, identifying your desired outcomes, frees you from concerns about tools. The meaning behind what you create, whether you have it in a professionally-themed Wordpress blog or a plain-text Gist on GitHub, remains the same. I don&#8217;t want to let meaning be obscured, or delayed, by tools.</p>
 
 <p>There&#8217;s never been a better time to be mindful of the way you work.</p></div>
-    </div>
-    
-    <div class="post">
-        
-        <h1><a href="/2012/12/21/adding-papers-to-papers.html">Adding PDFs to Papers2 with maid</a></h1>
-        
-        <div class="date">December 21, 2012 &bullet; <a href="/2012/12/21/adding-papers-to-papers.html">∞</a></div> 
-        <div class="excerpt"><p>Often, when processing journal RSS feeds, I&#8217;ll find quite a few articles that I want to read. I use <a href='http://www.mekentosj.com/papers/'>Papers2</a> to manage my papers, so the first thing I need to do is import these newly-downloaded files.</p>
-
-<p>The <a href='https://github.com/benjaminoakes/maid'><code>maid</code></a> gem makes this easy to do automatically. I&#8217;ve added the following rule to my <code>rules.rb</code> file:</p>
-
-<pre><code>rule &#39;Add PDFs to Papers2&#39; do
-  dir(&#39;~/Downloads/*.pdf&#39;).each do |path|
-    is_paper = `mdfind -onlyin ~/Downloads/ computing`
-
-      if is_paper.include?(path)
-        `open -a Papers2 &quot;#{path}&quot;`
-      end
-  end
-end</code></pre>
-
-<p>It&#8217;s not perfect, but it <em>is</em> perfectly functional. Every time I run <code>maid
-clean</code>, any PDFs that contain the word &#8220;computing&#8221; will be automatically imported into Papers. Obviously the word used to select papers will vary depending on your field, but the rule is trivial to modify.</p></div>
     </div>
     
 </div>
