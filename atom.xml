@@ -4,13 +4,21 @@
  <title>David Beckingsale</title>
  <link href="http://davidbeckingsale.com/atom.xml" rel="self"/>
  <link href="http://davidbeckingsale.com/"/>
- <updated>2013-04-16T18:17:24+01:00</updated>
+ <updated>2013-04-16T18:59:47+01:00</updated>
  <id>http://davidbeckingsale.com/</id>
  <author>
    <name>David Beckingsale</name>
    <email>davidbeckingsale@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Day One Templates</title>
+   <link href="http://davidbeckingsale.com/2013/04/20/day-one-templates.html"/>
+   <updated>2013-04-20T00:00:00+01:00</updated>
+   <id>http://davidbeckingsale.com/2013/04/20/day-one-templates</id>
+   <content type="html">&lt;p&gt;&lt;a href='http://tuliojarocki.com/writing/2013/4/day-one-templates'&gt;Tulio Jarocki&lt;/a&gt; has a great set of &lt;a href='http://smilesoftware.com/TextExpander/index.html'&gt;TextExpander&lt;/a&gt; snippets for writing reviews in &lt;a href='http://dayoneapp.com/'&gt;DayOne&lt;/a&gt;. I think keeping reviews of books and movies in DayOne is a great idea.&lt;/p&gt;</content>
+ </entry>
  
  <entry>
    <title>Small Wins</title>
