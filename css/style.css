@@ -12,7 +12,7 @@ body {
     font-family: 'Gentium Book Basic', serif;
     font-size: 18px;
     line-height: 1.5em;
-    margin: 0 0 200px;
+    margin: 0 0 250px;
 }
 
 p {
@@ -101,10 +101,14 @@ nav {
 article {
     width: 620px;
     margin: auto;
+    padding-bottom: 0.5em;
 }
 
 footer {
     position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 250px;
     background-color: rgba(34,34,34,1);
     color: rgba(255,255,255,1);
     font-size: 0.75em;
@@ -116,9 +120,9 @@ footer {
     padding-top: 3em;
     padding-bottom: 1em;
     width: 100%;
-    left: 0;
-    bottom: 0;
-    height: 200px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 #copy {
