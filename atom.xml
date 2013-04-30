@@ -4,13 +4,23 @@
  <title>David Beckingsale</title>
  <link href="http://davidbeckingsale.com/atom.xml" rel="self"/>
  <link href="http://davidbeckingsale.com/"/>
- <updated>2013-04-24T18:35:12+01:00</updated>
+ <updated>2013-04-30T07:23:57+01:00</updated>
  <id>http://davidbeckingsale.com/</id>
  <author>
    <name>David Beckingsale</name>
    <email>davidbeckingsale@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>The Best Days</title>
+   <link href="http://davidbeckingsale.com/2013/04/30/best-days.html"/>
+   <updated>2013-04-30T00:00:00+01:00</updated>
+   <id>http://davidbeckingsale.com/2013/04/30/best-days</id>
+   <content type="html">&lt;p&gt;The best days are the ones when I don&amp;#8217;t do anything in OmniFocus. What do I mean? When I&amp;#8217;m living, I&amp;#8217;m not worrying about my task list. I know that nothing is due. Nothing is going to fall apart while I&amp;#8217;m away. This is the best part of GTD &amp;#8211; the mind like water.&lt;/p&gt;
+
+&lt;p&gt;Whilst it&amp;#8217;s not something that happens as often as I would like, I really appreciate it when it does happen. It makes me strive to improve the way I manage my &amp;#8220;open loops&amp;#8221;.&lt;/p&gt;</content>
+ </entry>
  
  <entry>
    <title>Daring Fireball</title>
