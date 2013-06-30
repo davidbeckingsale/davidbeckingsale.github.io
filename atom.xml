@@ -4,13 +4,31 @@
  <title>David Beckingsale</title>
  <link href="http://davidbeckingsale.com/atom.xml" rel="self"/>
  <link href="http://davidbeckingsale.com/"/>
- <updated>2013-06-02T17:54:16+01:00</updated>
+ <updated>2013-06-30T20:05:00+01:00</updated>
  <id>http://davidbeckingsale.com/</id>
  <author>
    <name>David Beckingsale</name>
    <email>davidbeckingsale@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Thoughts on SICP</title>
+   <link href="http://davidbeckingsale.com/2013/06/30/sicp.html"/>
+   <updated>2013-06-30T00:00:00+01:00</updated>
+   <id>http://davidbeckingsale.com/2013/06/30/sicp</id>
+   <content type="html">&lt;p&gt;I&amp;#8217;ve just started reading &lt;a href='http://mitpress.mit.edu/sicp/full-text/book/book.html'&gt;&lt;em&gt;Structure and Interpretation of Compture Programs&lt;/em&gt;&lt;/a&gt;, and have been struck by how they introduce a couple of rather advanced concepts in such a clear way, hardly even hinting at how tricky these concepts can be to understand, particularly in other programming languages.&lt;/p&gt;
+
+&lt;p&gt;The first thing that jumped out was in Exercise 1.4, where they use a conditional test to determine which procedure to apply to some arguments:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;((if (&amp;gt; b 0) + -) a b)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Depending on the value of &lt;code&gt;b&lt;/code&gt;, the two operands are either added or subtracted. This is a powerful way to introduce functions as first-class citizens.&lt;/p&gt;
+
+&lt;p&gt;The second was how naturally recursion is introduced as a problem solving mechanism. In fact, the first time it&amp;#8217;s used, I don&amp;#8217;t think it&amp;#8217;s even named! Recursion is a very natural approach to solving mathematical problems using computers, and coming from imperative languages like Java, seeing recursion used so simply in the very first chapter of the book was really refreshing.&lt;/p&gt;
+
+&lt;p&gt;A final thought - I think Scheme is perfect as a teaching language. As the authors say, the syntax is so simple that it just gets out of the way and allows a concise exposition of all the necessary concepts of programming and computation. I&amp;#8217;m looking forward to working through the rest of the book.&lt;/p&gt;</content>
+ </entry>
  
  <entry>
    <title>Stuff I Use</title>
