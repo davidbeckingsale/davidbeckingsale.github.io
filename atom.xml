@@ -4,7 +4,7 @@
  <title>David Beckingsale</title>
  <link href="http://davidbeckingsale.com/atom.xml" rel="self"/>
  <link href="http://davidbeckingsale.com/"/>
- <updated>2013-06-30T20:05:00+01:00</updated>
+ <updated>2013-07-01T13:24:12+01:00</updated>
  <id>http://davidbeckingsale.com/</id>
  <author>
    <name>David Beckingsale</name>
@@ -13,11 +13,19 @@
 
  
  <entry>
+   <title>Feed Wrangler</title>
+   <link href="http://davidbeckingsale.com/2013/07/01/feedwrangler.html"/>
+   <updated>2013-07-01T00:00:00+01:00</updated>
+   <id>http://davidbeckingsale.com/2013/07/01/feedwrangler</id>
+   <content type="html">&lt;p&gt;Now that Google Reader has disappeared, &lt;a href='http://www.feedwrangler.net/welcome.html'&gt;Feed Wrangler&lt;/a&gt; is a great replacement, providing both a web site and iOS apps. My favourite feature is the one-tap send to Instapaper button, added to the bottom of the iOS app when you sign in to the read it later service.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
    <title>Thoughts on SICP</title>
    <link href="http://davidbeckingsale.com/2013/06/30/sicp.html"/>
    <updated>2013-06-30T00:00:00+01:00</updated>
    <id>http://davidbeckingsale.com/2013/06/30/sicp</id>
-   <content type="html">&lt;p&gt;I&amp;#8217;ve just started reading &lt;a href='http://mitpress.mit.edu/sicp/full-text/book/book.html'&gt;&lt;em&gt;Structure and Interpretation of Compture Programs&lt;/em&gt;&lt;/a&gt;, and have been struck by how they introduce a couple of rather advanced concepts in such a clear way, hardly even hinting at how tricky these concepts can be to understand, particularly in other programming languages.&lt;/p&gt;
+   <content type="html">&lt;p&gt;I&amp;#8217;ve just started reading &lt;a href='http://mitpress.mit.edu/sicp/full-text/book/book.html'&gt;&lt;em&gt;Structure and Interpretation of Computer Programs&lt;/em&gt;&lt;/a&gt;, and have been struck by how they introduce a couple of rather advanced concepts in such a clear way, hardly even hinting at how tricky these concepts can be to understand, particularly in other programming languages.&lt;/p&gt;
 
 &lt;p&gt;The first thing that jumped out was in Exercise 1.4, where they use a conditional test to determine which procedure to apply to some arguments:&lt;/p&gt;
 
